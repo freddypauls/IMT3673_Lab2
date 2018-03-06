@@ -56,18 +56,18 @@ public class UserPreferance extends AppCompatActivity {
         });
 
         spinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-                    @Override
-                    public void onItemSelected(AdapterView<?> AdapterView, View view, int i, long j) {
-                        SharedPreferences.Editor editor = spin.edit();
-                        editor.putInt("refresh_time", i);
-                        editor.commit();
+            @Override
+            public void onItemSelected(AdapterView<?> AdapterView, View view, int i, long j) {
+                SharedPreferences.Editor editor = spin.edit();
+                editor.putInt("refresh_time", i);
+                editor.commit();
 
-                    }
+            }
 
-                    @Override
-                    public void onNothingSelected(AdapterView<?> parent) {
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
 
-                    }
+            }
         });
     }
 }

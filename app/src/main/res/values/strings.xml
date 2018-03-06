@@ -11,4 +11,7 @@
         <item>30min</item>
         <item>60min</item>
     </string-array>
+    <string name="settingsBtn">Settings</string>
+    <string name="enter_url">Enter Url</string>
+    <string name="setSettings">Save</string>
 </resources>
